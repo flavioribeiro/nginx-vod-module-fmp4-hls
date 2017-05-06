@@ -60,3 +60,7 @@ The nginx instance is [writing logs](https://github.com/flavioribeiro/docker-ngi
 
 - VP9/MP4 @ 1080p: http://localhost/video/vp9/occupy_vp9.mp4
 - HLS - VP9/MPEG-TS: http://localhost/hlsts/vp9/occupy_vp9.mp4/master.m3u8 (broken)
+
+### Using the Examples
+
+You can playback the examples by using [hls.js](http://github.com/video-dev/hls.js) test page: http://video-dev.github.io/hls.js/demo/?src=[source_here]
