@@ -10,7 +10,7 @@ Assuming you have docker installed on your computer, clone the repository and go
 $ git clone https://github.com/flavioribeiro/nginx-vod-module-fmp4-hls.git && cd nginx-vod-module-fmp4-hls
 ```
 
-Build a docker image from the `Dockerfile` :
+Build a docker image from the `Dockerfile`:
 
 ```
 $ docker build .
@@ -25,7 +25,7 @@ REPOSITORY                TAG                               IMAGE ID            
 $ docker run -p 127.0.0.1:80:80 4c064be1f291
 ```
 
-The nginx instance is [writing logs](https://github.com/flavioribeiro/docker-nginx-vod-module-fmp4-hls/blob/master/nginx.conf#L11-L12) on `stdout` to make it easier for debugging.  You should be all set.
+The nginx instance is [writing logs](https://github.com/flavioribeiro/docker-nginx-vod-module-fmp4-hls/blob/master/nginx.conf#L11-L12) on `stdout` to make it easier for debugging. You should be all set.
 
 ## Examples
 
