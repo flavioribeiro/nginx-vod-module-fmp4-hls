@@ -1,5 +1,5 @@
 # nginx-vod-module-fmp4-hls
-This project aims to support some experiments around the playback of fragmented MP4’s on the [HTTP Live Streaming protocol](https://tools.ietf.org/html/draft-pantos-http-live-streaming-22) .
+This project aims to support some experiments around the playback of fragmented MP4’s on the [HTTP Live Streaming protocol](https://tools.ietf.org/html/draft-pantos-http-live-streaming-22).
 
 It uses [Kaltura’s](http:’//kaltura.com) [nginx-vod-module](https://github.com/kaltura/nginx-vod-module) and [lua-nginx-module](https://github.com/openresty/lua-nginx-module)  to reuse m4s segments from the MPEG-Dash location by pointing the HLS manifests to them.
 
