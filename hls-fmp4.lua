@@ -24,10 +24,9 @@ hls_manifest = ngx.var.request_uri:gsub(HLS_FMP4_LOCATION, HLS_LOCATION)
 hls_content = ngx.location.capture(hls_manifest)
 
 if string.match(ngx.var.request_uri, "master.m3u8") then
-	res, _ = hls_content.body:gsub(HLS_LOCATION, HLS_FMP4_LOCATION):gsub("a1.m3u8", "x3.m3u8")
+  res, _ = hls_content.body:gsub(HLS_LOCATION, HLS_FMP4_LOCATION):gsub("a1.m3u8", "x3.m3u8")
   audio_track = get_audio_track(ngx.var.host, ngx.var.request_uri)
-	res = res .. audio_track
-
+  res = res .. audio_track
 elseif string.match(ngx.var.request_uri, "index") then
   init_segment = get_init_segment_uri(ngx.var.host, ngx.var.request_uri)
   res, _ = hls_content.body:gsub("EXT-%-X%-PLAYLIST%-TYPE:VOD", init_segment):gsub("%.ts","-x3.m4s"):gsub(HLS_LOCATION, DASH_LOCATION)
