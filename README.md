@@ -67,6 +67,8 @@ You can playback the examples by using [hls.js](http://github.com/video-dev/hls.
 
 ## References
 
-https://bitmovin.com/hls-fragmented-mp4/
-http://www.streamingmedia.com/Articles/News/Online-Video-News/HLS-Now-Supports-Fragmented-MP4-Making-it-Compatible-With-DASH-111796.aspx
-https://github.com/google/shaka-packager/issues/193
+- https://bitmovin.com/hls-news-wwdc-2016/
+
+- http://www.streamingmedia.com/Articles/News/Online-Video-News/HLS-Now-Supports-Fragmented-MP4-Making-it-Compatible-With-DASH-111796.aspx
+
+- https://github.com/google/shaka-packager/issues/193
