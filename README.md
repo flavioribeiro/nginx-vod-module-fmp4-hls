@@ -64,3 +64,9 @@ The nginx instance is [writing logs](https://github.com/flavioribeiro/docker-ngi
 ## Playing the HLS examples 
 
 You can playback the examples by using [hls.js](http://github.com/video-dev/hls.js) test page: http://video-dev.github.io/hls.js/demo/?src=[source_here]
+
+## References
+
+https://bitmovin.com/hls-fragmented-mp4/
+http://www.streamingmedia.com/Articles/News/Online-Video-News/HLS-Now-Supports-Fragmented-MP4-Making-it-Compatible-With-DASH-111796.aspx
+https://github.com/google/shaka-packager/issues/193
