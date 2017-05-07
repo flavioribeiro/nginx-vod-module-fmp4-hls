@@ -56,6 +56,16 @@ The nginx instance is [writing logs](https://github.com/flavioribeiro/docker-ngi
 - HLS - H264/MPEG-TS: http://localhost/hlsts/rocket/rocket,360,480,720,1080,p.mp4.urlset/master.m3u8
 - HLS - H264/fMP4: http://localhost/hlsfmp4/rocket/rocket,360,480,720,1080,p.mp4.urlset/master.m3u8
 
+### Devito
+
+- H264/MP4 @ 360p: http://localhost/video/devito/devito360p.mp4
+- H264/MP4 @ 480p: http://localhost/video/devito/devito480p.mp4
+- H264/MP4 @ 720p: http://localhost/video/devito/devito720p.mp4
+- H264/MP4 @ 1080p: http://localhost/video/devito/devito1080p.mp4
+- HLS - H264/MPEG-TS: http://localhost/hlsts/devito/devito,360,480,720,1080,p.mp4.urlset/master.m3u8
+- HLS - H264/fMP4: http://localhost/hlsfmp4/devito/devito,360,480,720,1080,p.mp4.urlset/master.m3u8
+- HLS - H264/MPEG-TS + Captions: http://localhost/hlsts/devito/devito,360p.mp4,480p.mp4,720p.mp4,1080p.mp4,.en_US.vtt,.urlset/master.m3u8
+
 ### Occupy 
 
 - VP9/MP4 @ 1080p: http://localhost/video/vp9/occupy_vp9.mp4
