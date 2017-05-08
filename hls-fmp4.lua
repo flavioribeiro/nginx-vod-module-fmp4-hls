@@ -12,8 +12,8 @@ end
 
 function get_audio_track(host, uri)
   local prefix, level = string.match(uri:gsub(".urlset", ""), "^(.-),(.-),")
-	local audio_track_uri = "http://" .. host .. prefix .. level .. "p.mp4/index-a1-x3.m3u8"
-	return '#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="' .. audio_track_uri .. '"\n'
+  local audio_track_uri = "http://" .. host .. prefix .. level .. "p.mp4/index-a1-x3.m3u8"
+  return '#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="' .. audio_track_uri .. '"\n'
 end
 
 ngx.header["Access-Control-Allow-Headers"] = '*';
